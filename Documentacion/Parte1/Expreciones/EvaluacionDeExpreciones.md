@@ -1,6 +1,7 @@
-# Evaluacion de expreciones
+# Expreciones
+## Evaluacion de expreciones
 
-## Planteamiento
+### Planteamiento
 Sin usar el computador, evalúe las siguientes expresiones, y para cada una de ellas indique el resultado y su tipo (si la expresión es válida) o qué error ocurre (si no lo es):
 
 ``` c#
@@ -23,7 +24,7 @@ Sin usar el computador, evalúe las siguientes expresiones, y para cada una de e
 
 Compruebe sus respuestas en el computador.
 
-## Solucion
+### Solución
 
 ``` c#
 >>> 2 + 3                               // (Ejemplo) Respuesta: Tipo int, valor 5

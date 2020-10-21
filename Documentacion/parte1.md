@@ -1,19 +1,19 @@
 # Parte 1
 
 ## Expreciones
-- [Evaluacón de expreciones](Parte%201/EvaluacionDeExpreciones.md)
+- [Evaluacón de expreciones](Parte1/Expreciones/EvaluacionDeExpreciones.md)
  
 ## Programas simples
-- Saludo
-- Círculos
-- Promedio
-- Conversión de unidades de longitud
-- Número invertido
-- Pitágoras
-- Hora futura
-- Parte decimal
-- Qué nota necesito
-- Huevos a la copa
+- [Saludo](Parte1/ProgramasSimples/Saludo.md)
+- [Círculos](Parte1/ProgramasSimples/Circulos.md)
+- [Promedio](Parte1/ProgramasSimples/Promedio.md)
+- [Conversión de unidades de longitud](Parte1/ProgramasSimples/ConversionDeUnidadesDeLongitud.md)
+- [Número invertido](Parte1/ProgramasSimples/NumeroInvertido.md)
+- [Pitágoras](Parte1/ProgramasSimples/Pitagoras.md)
+- [Hora futura](Parte1/ProgramasSimples/HoraFutura.md)
+- [Parte decimal](Parte1/ProgramasSimples/ParteDecimal.md)
+- [Qué nota necesito](Parte1/ProgramasSimples/QueNotaNecesito.md)
+- [Huevos a la copa](Parte1/ProgramasSimples/HuevosALaCopa.md)
 
 ## Estructuras condicionales
 - Determinar par
