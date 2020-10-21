@@ -15,6 +15,7 @@ namespace Ejercicios
         public Form1()
         {
             InitializeComponent();
+            label1.Text = abs(len('ocho') - len('cinco'));
         }
     }
 }
