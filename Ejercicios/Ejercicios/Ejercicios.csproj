@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DarkPrometheus\HoraFutura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DarkPrometheus\HoraFutura.Designer.cs">
+      <DependentUpon>HoraFutura.cs</DependentUpon>
+    </Compile>
     <Compile Include="DarkPrometheus\main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DarkPrometheus\HoraFutura.resx">
+      <DependentUpon>HoraFutura.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DarkPrometheus\main.resx">
       <DependentUpon>main.cs</DependentUpon>
     </EmbeddedResource>

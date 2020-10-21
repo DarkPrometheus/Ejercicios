@@ -15,7 +15,8 @@ namespace Ejercicios
         public Form1()
         {
             InitializeComponent();
-            label1.Text = abs(len('ocho') - len('cinco'));
+            DarkPrometheus.HoraFutura horaFutura = new DarkPrometheus.HoraFutura();
+            horaFutura.Show();
         }
     }
 }
