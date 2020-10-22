@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Ejercicios.DarkPrometheus.Parte1
 {
-    public partial class HoraFutura : UserControl
+    public partial class frmHoraFutura : UserControl
     {
         Clases.Varios varios = new Clases.Varios();
-        public HoraFutura()
+        public frmHoraFutura()
         {
             InitializeComponent();
             Centrar();
@@ -37,7 +37,7 @@ namespace Ejercicios.DarkPrometheus.Parte1
 
         void Centrar()
         {
-            varios.CentrarLabelHorizontalmente(ref lblHoraInicial, Width);
+            varios.CentrarLabelHorizontalmente(ref lblHoraInicial, this.Width);
             varios.CentrarLabelHorizontalmente(ref lblHorasSumar, Width);
             varios.CentrarLabelHorizontalmente(ref lblHorafinal, Width);
 

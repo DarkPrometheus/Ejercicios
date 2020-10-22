@@ -106,10 +106,10 @@
             this.btnEvaluacion = new System.Windows.Forms.Button();
             this.btnMenuExpreciones = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnBack = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.pnlTop = new System.Windows.Forms.Panel();
             this.pnlMain = new System.Windows.Forms.Panel();
-            this.btnBack = new System.Windows.Forms.Button();
             this.pnlLeft.SuspendLayout();
             this.pnlSubMenuDisenoAlgoritmos.SuspendLayout();
             this.pnlSubMenuRuteos.SuspendLayout();
@@ -1475,6 +1475,21 @@
             this.panel1.Size = new System.Drawing.Size(203, 52);
             this.panel1.TabIndex = 39;
             // 
+            // btnBack
+            // 
+            this.btnBack.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnBack.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(29)))), ((int)(((byte)(44)))));
+            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnBack.Location = new System.Drawing.Point(0, 0);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.btnBack.Size = new System.Drawing.Size(56, 52);
+            this.btnBack.TabIndex = 7;
+            this.btnBack.Text = "<==";
+            this.btnBack.UseVisualStyleBackColor = true;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -1502,21 +1517,6 @@
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.Size = new System.Drawing.Size(664, 489);
             this.pnlMain.TabIndex = 1;
-            // 
-            // btnBack
-            // 
-            this.btnBack.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnBack.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(29)))), ((int)(((byte)(44)))));
-            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBack.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnBack.Location = new System.Drawing.Point(0, 0);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btnBack.Size = new System.Drawing.Size(56, 52);
-            this.btnBack.TabIndex = 7;
-            this.btnBack.Text = "<==";
-            this.btnBack.UseVisualStyleBackColor = true;
             // 
             // MenuParte1
             // 
