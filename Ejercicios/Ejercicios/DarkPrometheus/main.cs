@@ -16,5 +16,12 @@ namespace Ejercicios.DarkPrometheus
         {
             InitializeComponent();
         }
+
+        private void btnParte1_Click(object sender, EventArgs e)
+        {
+            Parte1.MenuParte1 menuParte1 = new Parte1.MenuParte1();
+            Hide();
+            menuParte1.Show();
+        }
     }
 }

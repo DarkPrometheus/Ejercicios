@@ -30,8 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.btnParte1 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnParte2 = new System.Windows.Forms.Button();
+            this.btnParte3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -55,38 +55,39 @@
             this.btnParte1.Text = "Parte 1";
             this.btnParte1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnParte1.UseVisualStyleBackColor = true;
+            this.btnParte1.Click += new System.EventHandler(this.btnParte1_Click);
             // 
-            // button1
+            // btnParte2
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("SimSun-ExtB", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(41, 148);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(268, 43);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Parte 1";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnParte2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnParte2.Font = new System.Drawing.Font("SimSun-ExtB", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnParte2.Location = new System.Drawing.Point(41, 148);
+            this.btnParte2.Name = "btnParte2";
+            this.btnParte2.Size = new System.Drawing.Size(268, 43);
+            this.btnParte2.TabIndex = 3;
+            this.btnParte2.Text = "Parte 2";
+            this.btnParte2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnParte2.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnParte3
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("SimSun-ExtB", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(41, 197);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(268, 43);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Parte 1";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnParte3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnParte3.Font = new System.Drawing.Font("SimSun-ExtB", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnParte3.Location = new System.Drawing.Point(41, 197);
+            this.btnParte3.Name = "btnParte3";
+            this.btnParte3.Size = new System.Drawing.Size(268, 43);
+            this.btnParte3.TabIndex = 3;
+            this.btnParte3.Text = "Parte 3";
+            this.btnParte3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnParte3.UseVisualStyleBackColor = true;
             // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(515, 277);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnParte3);
+            this.Controls.Add(this.btnParte2);
             this.Controls.Add(this.btnParte1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -102,7 +103,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnParte1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnParte2;
+        private System.Windows.Forms.Button btnParte3;
     }
 }

@@ -52,10 +52,10 @@
     <Compile Include="DarkPrometheus\main.Designer.cs">
       <DependentUpon>main.cs</DependentUpon>
     </Compile>
-    <Compile Include="DarkPrometheus\MenuParte1.cs">
+    <Compile Include="DarkPrometheus\Parte1\MenuParte1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DarkPrometheus\MenuParte1.Designer.cs">
+    <Compile Include="DarkPrometheus\Parte1\MenuParte1.Designer.cs">
       <DependentUpon>MenuParte1.cs</DependentUpon>
     </Compile>
     <Compile Include="DarkPrometheus\Parte1\HoraFutura.cs">
@@ -81,7 +81,7 @@
     <EmbeddedResource Include="DarkPrometheus\main.resx">
       <DependentUpon>main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DarkPrometheus\MenuParte1.resx">
+    <EmbeddedResource Include="DarkPrometheus\Parte1\MenuParte1.resx">
       <DependentUpon>MenuParte1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DarkPrometheus\Parte1\HoraFutura.resx">

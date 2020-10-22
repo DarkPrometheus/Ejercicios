@@ -190,6 +190,7 @@
             this.pnlSubMenuDisenoAlgoritmos.Name = "pnlSubMenuDisenoAlgoritmos";
             this.pnlSubMenuDisenoAlgoritmos.Size = new System.Drawing.Size(203, 981);
             this.pnlSubMenuDisenoAlgoritmos.TabIndex = 20;
+            this.pnlSubMenuDisenoAlgoritmos.Visible = false;
             // 
             // btnInterseccionDeCircunferencias
             // 
@@ -206,6 +207,7 @@
             this.btnInterseccionDeCircunferencias.Text = "Intersección de circunferencias";
             this.btnInterseccionDeCircunferencias.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnInterseccionDeCircunferencias.UseVisualStyleBackColor = true;
+            this.btnInterseccionDeCircunferencias.Click += new System.EventHandler(this.btnInterseccionDeCircunferencias_Click);
             // 
             // btnMaquinaDeAlimentos
             // 
@@ -222,6 +224,7 @@
             this.btnMaquinaDeAlimentos.Text = "Máquina de alimentos";
             this.btnMaquinaDeAlimentos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMaquinaDeAlimentos.UseVisualStyleBackColor = true;
+            this.btnMaquinaDeAlimentos.Click += new System.EventHandler(this.btnMaquinaDeAlimentos_Click);
             // 
             // btnAlzasDelDolar
             // 
@@ -238,6 +241,7 @@
             this.btnAlzasDelDolar.Text = "Alzas del dólar";
             this.btnAlzasDelDolar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAlzasDelDolar.UseVisualStyleBackColor = true;
+            this.btnAlzasDelDolar.Click += new System.EventHandler(this.btnAlzasDelDolar_Click);
             // 
             // btnPromocionConDescuento
             // 
@@ -254,6 +258,7 @@
             this.btnPromocionConDescuento.Text = "Promoción con descuento";
             this.btnPromocionConDescuento.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPromocionConDescuento.UseVisualStyleBackColor = true;
+            this.btnPromocionConDescuento.Click += new System.EventHandler(this.btnPromocionConDescuento_Click);
             // 
             // btnVotacionesDeLaCONFECH
             // 
@@ -270,6 +275,7 @@
             this.btnVotacionesDeLaCONFECH.Text = "Votaciones de la CONFECH";
             this.btnVotacionesDeLaCONFECH.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnVotacionesDeLaCONFECH.UseVisualStyleBackColor = true;
+            this.btnVotacionesDeLaCONFECH.Click += new System.EventHandler(this.btnVotacionesDeLaCONFECH_Click);
             // 
             // btnReglamentoDeEvaluaciones
             // 
@@ -286,6 +292,7 @@
             this.btnReglamentoDeEvaluaciones.Text = "Reglamento de evaluaciones";
             this.btnReglamentoDeEvaluaciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReglamentoDeEvaluaciones.UseVisualStyleBackColor = true;
+            this.btnReglamentoDeEvaluaciones.Click += new System.EventHandler(this.btnReglamentoDeEvaluaciones_Click);
             // 
             // btnValorActualNeto
             // 
@@ -302,6 +309,7 @@
             this.btnValorActualNeto.Text = "Valor actual neto";
             this.btnValorActualNeto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnValorActualNeto.UseVisualStyleBackColor = true;
+            this.btnValorActualNeto.Click += new System.EventHandler(this.btnValorActualNeto_Click);
             // 
             // btnRango
             // 
@@ -318,6 +326,7 @@
             this.btnRango.Text = "Rango";
             this.btnRango.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRango.UseVisualStyleBackColor = true;
+            this.btnRango.Click += new System.EventHandler(this.btnRango_Click);
             // 
             // btnTorreYAlfil
             // 
@@ -334,6 +343,7 @@
             this.btnTorreYAlfil.Text = "Torre y alfil";
             this.btnTorreYAlfil.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTorreYAlfil.UseVisualStyleBackColor = true;
+            this.btnTorreYAlfil.Click += new System.EventHandler(this.btnTorreYAlfil_Click);
             // 
             // btnTrianguloDePascal
             // 
@@ -350,6 +360,7 @@
             this.btnTrianguloDePascal.Text = "Triángulo de Pascal";
             this.btnTrianguloDePascal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTrianguloDePascal.UseVisualStyleBackColor = true;
+            this.btnTrianguloDePascal.Click += new System.EventHandler(this.btnTrianguloDePascal_Click);
             // 
             // btnMetodoDeNewton
             // 
@@ -366,6 +377,7 @@
             this.btnMetodoDeNewton.Text = "Método de Newton";
             this.btnMetodoDeNewton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMetodoDeNewton.UseVisualStyleBackColor = true;
+            this.btnMetodoDeNewton.Click += new System.EventHandler(this.btnMetodoDeNewton_Click);
             // 
             // btnNumerosAmistosos
             // 
@@ -382,6 +394,7 @@
             this.btnNumerosAmistosos.Text = "Números amistosos";
             this.btnNumerosAmistosos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNumerosAmistosos.UseVisualStyleBackColor = true;
+            this.btnNumerosAmistosos.Click += new System.EventHandler(this.btnNumerosAmistosos_Click);
             // 
             // btnMultiplicacionRusa
             // 
@@ -398,6 +411,7 @@
             this.btnMultiplicacionRusa.Text = "Multiplicación rusa";
             this.btnMultiplicacionRusa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMultiplicacionRusa.UseVisualStyleBackColor = true;
+            this.btnMultiplicacionRusa.Click += new System.EventHandler(this.btnMultiplicacionRusa_Click);
             // 
             // btnSumaDeDijitosAlCubo
             // 
@@ -414,6 +428,7 @@
             this.btnSumaDeDijitosAlCubo.Text = "Suma de dígitos al cubo";
             this.btnSumaDeDijitosAlCubo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSumaDeDijitosAlCubo.UseVisualStyleBackColor = true;
+            this.btnSumaDeDijitosAlCubo.Click += new System.EventHandler(this.btnSumaDeDijitosAlCubo_Click);
             // 
             // btnEspiral
             // 
@@ -430,6 +445,7 @@
             this.btnEspiral.Text = "Espiral";
             this.btnEspiral.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEspiral.UseVisualStyleBackColor = true;
+            this.btnEspiral.Click += new System.EventHandler(this.btnEspiral_Click);
             // 
             // btnNumerosDeFibonacci
             // 
@@ -446,6 +462,7 @@
             this.btnNumerosDeFibonacci.Text = "Números de Fibonacci";
             this.btnNumerosDeFibonacci.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNumerosDeFibonacci.UseVisualStyleBackColor = true;
+            this.btnNumerosDeFibonacci.Click += new System.EventHandler(this.btnNumerosDeFibonacci_Click);
             // 
             // btnSumaDeTresCubos
             // 
@@ -462,6 +479,7 @@
             this.btnSumaDeTresCubos.Text = "Suma de tres cubos";
             this.btnSumaDeTresCubos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSumaDeTresCubos.UseVisualStyleBackColor = true;
+            this.btnSumaDeTresCubos.Click += new System.EventHandler(this.btnSumaDeTresCubos_Click);
             // 
             // btnAdivinarElNumero
             // 
@@ -478,6 +496,7 @@
             this.btnAdivinarElNumero.Text = "Adibinar el número";
             this.btnAdivinarElNumero.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAdivinarElNumero.UseVisualStyleBackColor = true;
+            this.btnAdivinarElNumero.Click += new System.EventHandler(this.btnAdivinarElNumero_Click);
             // 
             // btnElMejorNumero
             // 
@@ -494,6 +513,7 @@
             this.btnElMejorNumero.Text = "El mejor número";
             this.btnElMejorNumero.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnElMejorNumero.UseVisualStyleBackColor = true;
+            this.btnElMejorNumero.Click += new System.EventHandler(this.btnElMejorNumero_Click);
             // 
             // btnNumerosPrimos
             // 
@@ -510,6 +530,7 @@
             this.btnNumerosPrimos.Text = "Números primos";
             this.btnNumerosPrimos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNumerosPrimos.UseVisualStyleBackColor = true;
+            this.btnNumerosPrimos.Click += new System.EventHandler(this.btnNumerosPrimos_Click);
             // 
             // btnChachipun
             // 
@@ -526,6 +547,7 @@
             this.btnChachipun.Text = "Cachipún";
             this.btnChachipun.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnChachipun.UseVisualStyleBackColor = true;
+            this.btnChachipun.Click += new System.EventHandler(this.btnChachipun_Click);
             // 
             // btnPalabrasPalindromas
             // 
@@ -542,6 +564,7 @@
             this.btnPalabrasPalindromas.Text = "Palabras palíndromas";
             this.btnPalabrasPalindromas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPalabrasPalindromas.UseVisualStyleBackColor = true;
+            this.btnPalabrasPalindromas.Click += new System.EventHandler(this.btnPalabrasPalindromas_Click);
             // 
             // btnNumerosPalindromos
             // 
@@ -558,6 +581,7 @@
             this.btnNumerosPalindromos.Text = "Números palíndromos";
             this.btnNumerosPalindromos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNumerosPalindromos.UseVisualStyleBackColor = true;
+            this.btnNumerosPalindromos.Click += new System.EventHandler(this.btnNumerosPalindromos_Click);
             // 
             // btnMediaArmonica
             // 
@@ -574,6 +598,7 @@
             this.btnMediaArmonica.Text = "Media armónica";
             this.btnMediaArmonica.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMediaArmonica.UseVisualStyleBackColor = true;
+            this.btnMediaArmonica.Click += new System.EventHandler(this.btnMediaArmonica_Click);
             // 
             // btnCaballoDeAjedrez
             // 
@@ -590,6 +615,7 @@
             this.btnCaballoDeAjedrez.Text = "Caballo de ajadrez";
             this.btnCaballoDeAjedrez.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCaballoDeAjedrez.UseVisualStyleBackColor = true;
+            this.btnCaballoDeAjedrez.Click += new System.EventHandler(this.btnCaballoDeAjedrez_Click);
             // 
             // btnEcuacionPrimerGrado
             // 
@@ -606,6 +632,7 @@
             this.btnEcuacionPrimerGrado.Text = "Ecuación primer grado";
             this.btnEcuacionPrimerGrado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEcuacionPrimerGrado.UseVisualStyleBackColor = true;
+            this.btnEcuacionPrimerGrado.Click += new System.EventHandler(this.btnEcuacionPrimerGrado_Click);
             // 
             // btnDigitoVerificador
             // 
@@ -622,6 +649,7 @@
             this.btnDigitoVerificador.Text = "Dígito verificador";
             this.btnDigitoVerificador.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDigitoVerificador.UseVisualStyleBackColor = true;
+            this.btnDigitoVerificador.Click += new System.EventHandler(this.btnDigitoVerificador_Click);
             // 
             // btnDigitos
             // 
@@ -638,11 +666,13 @@
             this.btnDigitos.Text = "Dígitos";
             this.btnDigitos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDigitos.UseVisualStyleBackColor = true;
+            this.btnDigitos.Click += new System.EventHandler(this.btnDigitos_Click);
             // 
             // btnMenuDisenoDeAlgoritmos
             // 
             this.btnMenuDisenoDeAlgoritmos.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMenuDisenoDeAlgoritmos.FlatAppearance.BorderSize = 0;
+            this.btnMenuDisenoDeAlgoritmos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(29)))), ((int)(((byte)(44)))));
             this.btnMenuDisenoDeAlgoritmos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMenuDisenoDeAlgoritmos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenuDisenoDeAlgoritmos.ForeColor = System.Drawing.Color.Gainsboro;
@@ -654,6 +684,7 @@
             this.btnMenuDisenoDeAlgoritmos.Text = "Diseño de algoritmos";
             this.btnMenuDisenoDeAlgoritmos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMenuDisenoDeAlgoritmos.UseVisualStyleBackColor = true;
+            this.btnMenuDisenoDeAlgoritmos.Click += new System.EventHandler(this.btnMenuDisenoDeAlgoritmos_Click);
             // 
             // pnlSubMenuRuteos
             // 
@@ -666,6 +697,7 @@
             this.pnlSubMenuRuteos.Name = "pnlSubMenuRuteos";
             this.pnlSubMenuRuteos.Size = new System.Drawing.Size(203, 71);
             this.pnlSubMenuRuteos.TabIndex = 18;
+            this.pnlSubMenuRuteos.Visible = false;
             // 
             // btnRuteosVarios
             // 
@@ -682,6 +714,7 @@
             this.btnRuteosVarios.Text = "Ruteos varios";
             this.btnRuteosVarios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRuteosVarios.UseVisualStyleBackColor = true;
+            this.btnRuteosVarios.Click += new System.EventHandler(this.btnRuteosVarios_Click);
             // 
             // btnOjoConLaIndentacion
             // 
@@ -698,11 +731,13 @@
             this.btnOjoConLaIndentacion.Text = "Ojo con la indetación";
             this.btnOjoConLaIndentacion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnOjoConLaIndentacion.UseVisualStyleBackColor = true;
+            this.btnOjoConLaIndentacion.Click += new System.EventHandler(this.btnOjoConLaIndentacion_Click);
             // 
             // btnMenuRuteos
             // 
             this.btnMenuRuteos.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMenuRuteos.FlatAppearance.BorderSize = 0;
+            this.btnMenuRuteos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(29)))), ((int)(((byte)(44)))));
             this.btnMenuRuteos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMenuRuteos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenuRuteos.ForeColor = System.Drawing.Color.Gainsboro;
@@ -714,6 +749,7 @@
             this.btnMenuRuteos.Text = "Ruteos";
             this.btnMenuRuteos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMenuRuteos.UseVisualStyleBackColor = true;
+            this.btnMenuRuteos.Click += new System.EventHandler(this.btnMenuRuteos_Click);
             // 
             // pnlSubMenuCiclos
             // 
@@ -735,6 +771,7 @@
             this.pnlSubMenuCiclos.Name = "pnlSubMenuCiclos";
             this.pnlSubMenuCiclos.Size = new System.Drawing.Size(203, 386);
             this.pnlSubMenuCiclos.TabIndex = 16;
+            this.pnlSubMenuCiclos.Visible = false;
             // 
             // btnSecuenciaDeCollatz
             // 
@@ -751,6 +788,7 @@
             this.btnSecuenciaDeCollatz.Text = "Secuencia de Collatz";
             this.btnSecuenciaDeCollatz.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSecuenciaDeCollatz.UseVisualStyleBackColor = true;
+            this.btnSecuenciaDeCollatz.Click += new System.EventHandler(this.btnSecuenciaDeCollatz_Click);
             // 
             // btnE
             // 
@@ -767,6 +805,7 @@
             this.btnE.Text = "e";
             this.btnE.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnE.UseVisualStyleBackColor = true;
+            this.btnE.Click += new System.EventHandler(this.btnE_Click);
             // 
             // btnSumaDeFracciones
             // 
@@ -783,6 +822,7 @@
             this.btnSumaDeFracciones.Text = "Suma de franciones";
             this.btnSumaDeFracciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSumaDeFracciones.UseVisualStyleBackColor = true;
+            this.btnSumaDeFracciones.Click += new System.EventHandler(this.btnSumaDeFracciones_Click);
             // 
             // btnPi
             // 
@@ -799,6 +839,7 @@
             this.btnPi.Text = "Pi";
             this.btnPi.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPi.UseVisualStyleBackColor = true;
+            this.btnPi.Click += new System.EventHandler(this.btnPi_Click);
             // 
             // btnDibujosDeAsteriscos
             // 
@@ -815,6 +856,7 @@
             this.btnDibujosDeAsteriscos.Text = "Dibujos de asteriscos";
             this.btnDibujosDeAsteriscos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDibujosDeAsteriscos.UseVisualStyleBackColor = true;
+            this.btnDibujosDeAsteriscos.Click += new System.EventHandler(this.btnDibujosDeAsteriscos_Click);
             // 
             // btnTiempoDeViaje
             // 
@@ -831,6 +873,7 @@
             this.btnTiempoDeViaje.Text = "Tiempo de viaje";
             this.btnTiempoDeViaje.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTiempoDeViaje.UseVisualStyleBackColor = true;
+            this.btnTiempoDeViaje.Click += new System.EventHandler(this.btnTiempoDeViaje_Click);
             // 
             // btnDivisores
             // 
@@ -847,6 +890,7 @@
             this.btnDivisores.Text = "Divisores";
             this.btnDivisores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDivisores.UseVisualStyleBackColor = true;
+            this.btnDivisores.Click += new System.EventHandler(this.btnDivisores_Click);
             // 
             // btnTablasDeMultiplicar
             // 
@@ -863,6 +907,7 @@
             this.btnTablasDeMultiplicar.Text = "Tabla de multiplicar";
             this.btnTablasDeMultiplicar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTablasDeMultiplicar.UseVisualStyleBackColor = true;
+            this.btnTablasDeMultiplicar.Click += new System.EventHandler(this.btnTablasDeMultiplicar_Click);
             // 
             // btnSumaEntreNumeros
             // 
@@ -879,6 +924,7 @@
             this.btnSumaEntreNumeros.Text = "Suma entre números";
             this.btnSumaEntreNumeros.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSumaEntreNumeros.UseVisualStyleBackColor = true;
+            this.btnSumaEntreNumeros.Click += new System.EventHandler(this.btnSumaEntreNumeros_Click);
             // 
             // btnPotenciasDeDos
             // 
@@ -895,6 +941,7 @@
             this.btnPotenciasDeDos.Text = "Potencias de dos";
             this.btnPotenciasDeDos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPotenciasDeDos.UseVisualStyleBackColor = true;
+            this.btnPotenciasDeDos.Click += new System.EventHandler(this.btnPotenciasDeDos_Click);
             // 
             // btnMultiplos
             // 
@@ -911,11 +958,13 @@
             this.btnMultiplos.Text = "Múltiplos";
             this.btnMultiplos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMultiplos.UseVisualStyleBackColor = true;
+            this.btnMultiplos.Click += new System.EventHandler(this.btnMultiplos_Click);
             // 
             // btnMenuCiclos
             // 
             this.btnMenuCiclos.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMenuCiclos.FlatAppearance.BorderSize = 0;
+            this.btnMenuCiclos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(29)))), ((int)(((byte)(44)))));
             this.btnMenuCiclos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMenuCiclos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenuCiclos.ForeColor = System.Drawing.Color.Gainsboro;
@@ -927,6 +976,7 @@
             this.btnMenuCiclos.Text = "Ciclos";
             this.btnMenuCiclos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMenuCiclos.UseVisualStyleBackColor = true;
+            this.btnMenuCiclos.Click += new System.EventHandler(this.btnMenuCiclos_Click);
             // 
             // pnlSubMenuEstructurasCondicionales
             // 
@@ -948,6 +998,7 @@
             this.pnlSubMenuEstructurasCondicionales.Name = "pnlSubMenuEstructurasCondicionales";
             this.pnlSubMenuEstructurasCondicionales.Size = new System.Drawing.Size(203, 386);
             this.pnlSubMenuEstructurasCondicionales.TabIndex = 14;
+            this.pnlSubMenuEstructurasCondicionales.Visible = false;
             // 
             // btnIndiceDeMasaCorporal
             // 
@@ -964,6 +1015,7 @@
             this.btnIndiceDeMasaCorporal.Text = "Índice de masa corporal";
             this.btnIndiceDeMasaCorporal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnIndiceDeMasaCorporal.UseVisualStyleBackColor = true;
+            this.btnIndiceDeMasaCorporal.Click += new System.EventHandler(this.btnIndiceDeMasaCorporal_Click);
             // 
             // btnTriangulos
             // 
@@ -980,6 +1032,7 @@
             this.btnTriangulos.Text = "Tríangulos";
             this.btnTriangulos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTriangulos.UseVisualStyleBackColor = true;
+            this.btnTriangulos.Click += new System.EventHandler(this.btnTriangulos_Click);
             // 
             // btnSetDeTenis
             // 
@@ -996,6 +1049,7 @@
             this.btnSetDeTenis.Text = "Set de tenis";
             this.btnSetDeTenis.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSetDeTenis.UseVisualStyleBackColor = true;
+            this.btnSetDeTenis.Click += new System.EventHandler(this.btnSetDeTenis_Click);
             // 
             // btnEdad
             // 
@@ -1012,6 +1066,7 @@
             this.btnEdad.Text = "Edad";
             this.btnEdad.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEdad.UseVisualStyleBackColor = true;
+            this.btnEdad.Click += new System.EventHandler(this.btnEdad_Click);
             // 
             // btnCalculadora
             // 
@@ -1028,6 +1083,7 @@
             this.btnCalculadora.Text = "Calculadora";
             this.btnCalculadora.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCalculadora.UseVisualStyleBackColor = true;
+            this.btnCalculadora.Click += new System.EventHandler(this.btnCalculadora_Click);
             // 
             // btnLetraONumero
             // 
@@ -1044,6 +1100,7 @@
             this.btnLetraONumero.Text = "Letra o número";
             this.btnLetraONumero.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLetraONumero.UseVisualStyleBackColor = true;
+            this.btnLetraONumero.Click += new System.EventHandler(this.btnLetraONumero_Click);
             // 
             // btnOrdenamiento
             // 
@@ -1060,6 +1117,7 @@
             this.btnOrdenamiento.Text = "Ordenamiento";
             this.btnOrdenamiento.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnOrdenamiento.UseVisualStyleBackColor = true;
+            this.btnOrdenamiento.Click += new System.EventHandler(this.btnOrdenamiento_Click);
             // 
             // btnPalabraMasLarga
             // 
@@ -1076,6 +1134,7 @@
             this.btnPalabraMasLarga.Text = "Palabra más larga";
             this.btnPalabraMasLarga.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPalabraMasLarga.UseVisualStyleBackColor = true;
+            this.btnPalabraMasLarga.Click += new System.EventHandler(this.btnPalabraMasLarga_Click);
             // 
             // btnDivicion
             // 
@@ -1092,6 +1151,7 @@
             this.btnDivicion.Text = "Divición";
             this.btnDivicion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDivicion.UseVisualStyleBackColor = true;
+            this.btnDivicion.Click += new System.EventHandler(this.btnDivicion_Click);
             // 
             // btnAnosBisiestos
             // 
@@ -1108,6 +1168,7 @@
             this.btnAnosBisiestos.Text = "Años bisiestos";
             this.btnAnosBisiestos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAnosBisiestos.UseVisualStyleBackColor = true;
+            this.btnAnosBisiestos.Click += new System.EventHandler(this.btnAnosBisiestos_Click);
             // 
             // btnDeterminarPar
             // 
@@ -1124,11 +1185,13 @@
             this.btnDeterminarPar.Text = "Determinar par";
             this.btnDeterminarPar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDeterminarPar.UseVisualStyleBackColor = true;
+            this.btnDeterminarPar.Click += new System.EventHandler(this.btnDeterminarPar_Click);
             // 
             // btnMenuEstructurasCondicionales
             // 
             this.btnMenuEstructurasCondicionales.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMenuEstructurasCondicionales.FlatAppearance.BorderSize = 0;
+            this.btnMenuEstructurasCondicionales.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(29)))), ((int)(((byte)(44)))));
             this.btnMenuEstructurasCondicionales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMenuEstructurasCondicionales.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenuEstructurasCondicionales.ForeColor = System.Drawing.Color.Gainsboro;
@@ -1140,6 +1203,7 @@
             this.btnMenuEstructurasCondicionales.Text = "Estructuras condicionales";
             this.btnMenuEstructurasCondicionales.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMenuEstructurasCondicionales.UseVisualStyleBackColor = true;
+            this.btnMenuEstructurasCondicionales.Click += new System.EventHandler(this.btnMenuEstructurasCondicionales_Click);
             // 
             // pnlSubMenuProgramasSimples
             // 
@@ -1160,6 +1224,7 @@
             this.pnlSubMenuProgramasSimples.Name = "pnlSubMenuProgramasSimples";
             this.pnlSubMenuProgramasSimples.Size = new System.Drawing.Size(203, 351);
             this.pnlSubMenuProgramasSimples.TabIndex = 7;
+            this.pnlSubMenuProgramasSimples.Visible = false;
             // 
             // btnHuevosALaCopa
             // 
@@ -1176,6 +1241,7 @@
             this.btnHuevosALaCopa.Text = "Huevos a la copa";
             this.btnHuevosALaCopa.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHuevosALaCopa.UseVisualStyleBackColor = true;
+            this.btnHuevosALaCopa.Click += new System.EventHandler(this.btnHuevosALaCopa_Click);
             // 
             // btnQueNotaNecesito
             // 
@@ -1192,6 +1258,7 @@
             this.btnQueNotaNecesito.Text = "¿Qué nota necesito?";
             this.btnQueNotaNecesito.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnQueNotaNecesito.UseVisualStyleBackColor = true;
+            this.btnQueNotaNecesito.Click += new System.EventHandler(this.btnQueNotaNecesito_Click);
             // 
             // btnParteDecimal
             // 
@@ -1208,6 +1275,7 @@
             this.btnParteDecimal.Text = "Parte decimal";
             this.btnParteDecimal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnParteDecimal.UseVisualStyleBackColor = true;
+            this.btnParteDecimal.Click += new System.EventHandler(this.btnParteDecimal_Click);
             // 
             // btnHoraFutura
             // 
@@ -1224,6 +1292,7 @@
             this.btnHoraFutura.Text = "Hora futura";
             this.btnHoraFutura.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnHoraFutura.UseVisualStyleBackColor = true;
+            this.btnHoraFutura.Click += new System.EventHandler(this.btnHoraFutura_Click);
             // 
             // btnPitagoras
             // 
@@ -1240,6 +1309,7 @@
             this.btnPitagoras.Text = "Pitágoras";
             this.btnPitagoras.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPitagoras.UseVisualStyleBackColor = true;
+            this.btnPitagoras.Click += new System.EventHandler(this.btnPitagoras_Click);
             // 
             // btnNumeroInvertido
             // 
@@ -1256,6 +1326,7 @@
             this.btnNumeroInvertido.Text = "Numero invertido";
             this.btnNumeroInvertido.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNumeroInvertido.UseVisualStyleBackColor = true;
+            this.btnNumeroInvertido.Click += new System.EventHandler(this.btnNumeroInvertido_Click);
             // 
             // btnConversionDeUnidades
             // 
@@ -1272,6 +1343,7 @@
             this.btnConversionDeUnidades.Text = "Conversion de unidades";
             this.btnConversionDeUnidades.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConversionDeUnidades.UseVisualStyleBackColor = true;
+            this.btnConversionDeUnidades.Click += new System.EventHandler(this.btnConversionDeUnidades_Click);
             // 
             // btnPromedio
             // 
@@ -1288,6 +1360,7 @@
             this.btnPromedio.Text = "Promedio";
             this.btnPromedio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPromedio.UseVisualStyleBackColor = true;
+            this.btnPromedio.Click += new System.EventHandler(this.btnPromedio_Click);
             // 
             // btnCirculos
             // 
@@ -1304,6 +1377,7 @@
             this.btnCirculos.Text = "Círculos";
             this.btnCirculos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCirculos.UseVisualStyleBackColor = true;
+            this.btnCirculos.Click += new System.EventHandler(this.btnCirculos_Click);
             // 
             // btnSaludo
             // 
@@ -1320,11 +1394,13 @@
             this.btnSaludo.Text = "Saludo";
             this.btnSaludo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSaludo.UseVisualStyleBackColor = true;
+            this.btnSaludo.Click += new System.EventHandler(this.btnSaludo_Click);
             // 
             // btnMenuProgramasSimples
             // 
             this.btnMenuProgramasSimples.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMenuProgramasSimples.FlatAppearance.BorderSize = 0;
+            this.btnMenuProgramasSimples.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(29)))), ((int)(((byte)(44)))));
             this.btnMenuProgramasSimples.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMenuProgramasSimples.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenuProgramasSimples.ForeColor = System.Drawing.Color.Gainsboro;
@@ -1336,6 +1412,7 @@
             this.btnMenuProgramasSimples.Text = "Programas simples";
             this.btnMenuProgramasSimples.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMenuProgramasSimples.UseVisualStyleBackColor = true;
+            this.btnMenuProgramasSimples.Click += new System.EventHandler(this.btnMenuProgramasSimples_Click);
             // 
             // pnlSubMenuExpreciones
             // 
@@ -1347,6 +1424,7 @@
             this.pnlSubMenuExpreciones.Name = "pnlSubMenuExpreciones";
             this.pnlSubMenuExpreciones.Size = new System.Drawing.Size(203, 36);
             this.pnlSubMenuExpreciones.TabIndex = 4;
+            this.pnlSubMenuExpreciones.Visible = false;
             // 
             // btnEvaluacion
             // 
@@ -1363,11 +1441,13 @@
             this.btnEvaluacion.Text = "Evalucacion de expreciones";
             this.btnEvaluacion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEvaluacion.UseVisualStyleBackColor = true;
+            this.btnEvaluacion.Click += new System.EventHandler(this.btnEvaluacion_Click);
             // 
             // btnMenuExpreciones
             // 
             this.btnMenuExpreciones.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMenuExpreciones.FlatAppearance.BorderSize = 0;
+            this.btnMenuExpreciones.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(29)))), ((int)(((byte)(44)))));
             this.btnMenuExpreciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMenuExpreciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMenuExpreciones.ForeColor = System.Drawing.Color.Gainsboro;
@@ -1379,6 +1459,7 @@
             this.btnMenuExpreciones.Text = "Expreciones";
             this.btnMenuExpreciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMenuExpreciones.UseVisualStyleBackColor = true;
+            this.btnMenuExpreciones.Click += new System.EventHandler(this.btnMenuExpreciones_Click);
             // 
             // panel1
             // 
@@ -1411,7 +1492,7 @@
             // 
             // pnlMain
             // 
-            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlMain.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pnlMain.Location = new System.Drawing.Point(220, 52);
             this.pnlMain.Name = "pnlMain";
             this.pnlMain.Size = new System.Drawing.Size(598, 483);
