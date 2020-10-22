@@ -82,6 +82,6 @@
 - Reglamento de evaluaciones
 - Votaciones de la CONFECH
 - Promoción con descuento
-- vAlzas del dólar
+- Alzas del dólar
 - Máquina de alimentos
 - Intersección de circunferencias

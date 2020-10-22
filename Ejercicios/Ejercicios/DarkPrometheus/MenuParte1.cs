@@ -8,20 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejercicios
+namespace Ejercicios.DarkPrometheus.Parte1
 {
-    public partial class Form1 : Form
+    public partial class MenuParte1 : Form
     {
-        public Form1()
+        public MenuParte1()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            DarkPrometheus.main main = new DarkPrometheus.main();
-            Hide();
-            main.Show();
         }
     }
 }
