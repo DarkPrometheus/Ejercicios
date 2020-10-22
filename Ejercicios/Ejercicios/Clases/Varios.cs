@@ -27,7 +27,5 @@ namespace Ejercicios.Clases
             parent = (parent / 2) - (button.Size.Width / 2);
             button.Location = new Point(parent, button.Location.Y);
         }
-
-
     }
 }

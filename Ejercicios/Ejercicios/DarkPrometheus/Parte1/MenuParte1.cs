@@ -99,7 +99,7 @@ namespace Ejercicios.DarkPrometheus.Parte1
 
         private void btnHoraFutura_Click(object sender, EventArgs e)
         {
-            HoraFutura horaFutura = new HoraFutura();
+            frmHoraFutura horaFutura = new frmHoraFutura();
             horaFutura.Dock = DockStyle.Fill;
             AddControl(horaFutura);
         }
