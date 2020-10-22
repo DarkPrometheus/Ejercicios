@@ -12,9 +12,11 @@ namespace Ejercicios.DarkPrometheus.Parte1
 {
     public partial class HoraFutura : UserControl
     {
+        Clases.Varios varios = new Clases.Varios();
         public HoraFutura()
         {
             InitializeComponent();
+            Centrar();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -31,6 +33,30 @@ namespace Ejercicios.DarkPrometheus.Parte1
             }
             else
                 lblHorafinal.Text = suma.ToString();
+        }
+
+        void Centrar()
+        {
+            varios.CentrarLabelHorizontalmente(ref lblHoraInicial, Width);
+            varios.CentrarLabelHorizontalmente(ref lblHorasSumar, Width);
+            varios.CentrarLabelHorizontalmente(ref lblHorafinal, Width);
+
+            varios.CentrarTexBoxHorizontalmente(ref txthoraInicial, Width);
+            varios.CentrarTexBoxHorizontalmente(ref txtHoraASumar, Width);
+
+            varios.CentrarButtonHorizontalmente(ref button1, Width);
+        }
+
+        private void HoraFutura_Resize(object sender, EventArgs e)
+        {
+            varios.CentrarLabelHorizontalmente(ref lblHoraInicial, Width);
+            varios.CentrarLabelHorizontalmente(ref lblHorasSumar, Width);
+            varios.CentrarLabelHorizontalmente(ref lblHorafinal, Width);
+
+            varios.CentrarTexBoxHorizontalmente(ref txthoraInicial, Width);
+            varios.CentrarTexBoxHorizontalmente(ref txtHoraASumar, Width);
+
+            varios.CentrarButtonHorizontalmente(ref button1, Width);
         }
     }
 }

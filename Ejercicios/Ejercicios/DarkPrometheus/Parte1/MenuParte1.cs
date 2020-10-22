@@ -12,10 +12,12 @@ namespace Ejercicios.DarkPrometheus.Parte1
 {
     public partial class MenuParte1 : Form
     {
+        Clases.Varios varios = new Clases.Varios();
         public MenuParte1()
         {
             InitializeComponent();
             OcultarSubMenus();
+            varios.CentrarLabelHorizontalmente(ref lblTitle, pnlTop.Width);
         }
 
         void OcultarSubMenus()
@@ -97,7 +99,9 @@ namespace Ejercicios.DarkPrometheus.Parte1
 
         private void btnHoraFutura_Click(object sender, EventArgs e)
         {
-
+            HoraFutura horaFutura = new HoraFutura();
+            horaFutura.Dock = DockStyle.Fill;
+            AddControl(horaFutura);
         }
 
         private void btnParteDecimal_Click(object sender, EventArgs e)
@@ -434,6 +438,17 @@ namespace Ejercicios.DarkPrometheus.Parte1
                 default:
                     break;
             }
+        }
+
+        private void AddControl(Control control)
+        {
+            pnlMain.Controls.Clear();
+            pnlMain.Controls.Add(control);
+        }
+
+        private void MenuParte1_Resize(object sender, EventArgs e)
+        {
+            varios.CentrarLabelHorizontalmente(ref lblTitle, pnlTop.Width);
         }
     }
 }

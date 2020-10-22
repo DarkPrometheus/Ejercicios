@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Varios.cs" />
     <Compile Include="DarkPrometheus\main.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblTitle = new System.Windows.Forms.Label();
             this.pnlLeft = new System.Windows.Forms.Panel();
             this.pnlSubMenuDisenoAlgoritmos = new System.Windows.Forms.Panel();
             this.btnInterseccionDeCircunferencias = new System.Windows.Forms.Button();
@@ -109,6 +109,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pnlTop = new System.Windows.Forms.Panel();
             this.pnlMain = new System.Windows.Forms.Panel();
+            this.btnBack = new System.Windows.Forms.Button();
             this.pnlLeft.SuspendLayout();
             this.pnlSubMenuDisenoAlgoritmos.SuspendLayout();
             this.pnlSubMenuRuteos.SuspendLayout();
@@ -120,15 +121,18 @@
             this.pnlTop.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // lblTitle
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(78, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(367, 34);
-            this.label1.TabIndex = 38;
-            this.label1.Text = "Ejercicios de programacion";
+            this.lblTitle.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(162, 9);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(367, 34);
+            this.lblTitle.TabIndex = 38;
+            this.lblTitle.Text = "Ejercicios de programacion";
             // 
             // pnlLeft
             // 
@@ -150,7 +154,7 @@
             this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlLeft.Location = new System.Drawing.Point(0, 0);
             this.pnlLeft.Name = "pnlLeft";
-            this.pnlLeft.Size = new System.Drawing.Size(220, 535);
+            this.pnlLeft.Size = new System.Drawing.Size(220, 541);
             this.pnlLeft.TabIndex = 2;
             // 
             // pnlSubMenuDisenoAlgoritmos
@@ -1463,6 +1467,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnBack);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -1475,7 +1480,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.label2.Location = new System.Drawing.Point(43, 9);
+            this.label2.Location = new System.Drawing.Point(62, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(105, 34);
             this.label2.TabIndex = 40;
@@ -1483,33 +1488,50 @@
             // 
             // pnlTop
             // 
-            this.pnlTop.Controls.Add(this.label1);
+            this.pnlTop.Controls.Add(this.lblTitle);
             this.pnlTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTop.Location = new System.Drawing.Point(220, 0);
             this.pnlTop.Name = "pnlTop";
-            this.pnlTop.Size = new System.Drawing.Size(598, 52);
+            this.pnlTop.Size = new System.Drawing.Size(664, 52);
             this.pnlTop.TabIndex = 37;
             // 
             // pnlMain
             // 
-            this.pnlMain.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMain.Location = new System.Drawing.Point(220, 52);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(598, 483);
+            this.pnlMain.Size = new System.Drawing.Size(664, 489);
             this.pnlMain.TabIndex = 1;
+            // 
+            // btnBack
+            // 
+            this.btnBack.Dock = System.Windows.Forms.DockStyle.Left;
+            this.btnBack.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(29)))), ((int)(((byte)(44)))));
+            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnBack.Location = new System.Drawing.Point(0, 0);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.btnBack.Size = new System.Drawing.Size(56, 52);
+            this.btnBack.TabIndex = 7;
+            this.btnBack.Text = "<==";
+            this.btnBack.UseVisualStyleBackColor = true;
             // 
             // MenuParte1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(818, 535);
+            this.ClientSize = new System.Drawing.Size(884, 541);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.pnlTop);
             this.Controls.Add(this.pnlLeft);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.MinimumSize = new System.Drawing.Size(900, 580);
             this.Name = "MenuParte1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
+            this.Resize += new System.EventHandler(this.MenuParte1_Resize);
             this.pnlLeft.ResumeLayout(false);
             this.pnlSubMenuDisenoAlgoritmos.ResumeLayout(false);
             this.pnlSubMenuRuteos.ResumeLayout(false);
@@ -1526,7 +1548,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Panel pnlLeft;
         private System.Windows.Forms.Button btnMenuExpreciones;
         private System.Windows.Forms.Panel pnlTop;
@@ -1607,5 +1629,6 @@
         private System.Windows.Forms.Button btnEspiral;
         private System.Windows.Forms.Button btnNumerosDeFibonacci;
         private System.Windows.Forms.Button btnSumaDeTresCubos;
+        private System.Windows.Forms.Button btnBack;
     }
 }
