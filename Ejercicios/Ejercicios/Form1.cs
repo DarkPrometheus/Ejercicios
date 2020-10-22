@@ -23,5 +23,12 @@ namespace Ejercicios
             Hide();
             main.Show();
         }
+
+        private void btnMenufregg_Click(object sender, EventArgs e)
+        {
+            freeg99.main main = new freeg99.main();
+            Hide();
+            main.Show();
+        }
     }
 }
