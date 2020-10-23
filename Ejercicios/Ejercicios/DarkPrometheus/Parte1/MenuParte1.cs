@@ -17,7 +17,7 @@ namespace Ejercicios.DarkPrometheus.Parte1
         {
             InitializeComponent();
             OcultarSubMenus();
-            varios.CentrarLabelHorizontalmente(ref lblTitle, pnlTop.Width);
+            lblTitle.Location = new Point(varios.CentrarUnoHorizontalmente(lblTitle.Size.Width, pnlTop.Width));
         }
 
         void OcultarSubMenus()
@@ -448,7 +448,7 @@ namespace Ejercicios.DarkPrometheus.Parte1
 
         private void MenuParte1_Resize(object sender, EventArgs e)
         {
-            varios.CentrarLabelHorizontalmente(ref lblTitle, pnlTop.Width);
+            varios.CentrarUnoHorizontalmente(lblTitle.Size.Width, pnlTop.Width);
         }
     }
 }

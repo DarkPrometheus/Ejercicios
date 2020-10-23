@@ -1512,6 +1512,7 @@
             // 
             // pnlMain
             // 
+            this.pnlMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMain.Location = new System.Drawing.Point(220, 52);
             this.pnlMain.Name = "pnlMain";

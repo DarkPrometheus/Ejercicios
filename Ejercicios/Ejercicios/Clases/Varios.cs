@@ -10,22 +10,34 @@ namespace Ejercicios.Clases
 {
     class Varios
     {
-        public void CentrarLabelHorizontalmente(ref Label label, int parent)
+        public int CentrarUnoVerticalmente(int AltoDelControl, int AltoDelPdre)
         {
-            parent = (parent / 2) - (label.Size.Width / 2);
-            label.Location = new Point(parent, label.Location.Y);
+            int Posicion = (AltoDelPdre / 2) - (AltoDelControl / 2);
+
+            return Posicion;
         }
 
-        public void CentrarTexBoxHorizontalmente(ref TextBox textBox, int parent)
+        public int[] CentrarVariosVerticalmente(int AltoDelControl, int AltoDelPdre, int Cantidad, int Espacio)
         {
-            parent = (parent / 2) - (textBox.Size.Width / 2);
-            textBox.Location = new Point(parent, textBox.Location.Y);
+            int SumaAlto = AltoDelControl * Cantidad + Espacio * (Cantidad - 1);
+            int[] Posiciones = new int[Cantidad];
+
+            int PrimeraPosicon = (AltoDelPdre - SumaAlto) / 2;
+            Posiciones[0] = PrimeraPosicon;
+            for (int i = 1; i < Cantidad; i++)
+            {
+                PrimeraPosicon += AltoDelControl + Espacio;
+                Posiciones[i] = PrimeraPosicon;
+            }
+
+            return Posiciones;
         }
 
-        public void CentrarButtonHorizontalmente(ref Button button, int parent)
+        public int CentrarUnoHorizontalmente(int AnchoDelControl, int AnchoDelPdre)
         {
-            parent = (parent / 2) - (button.Size.Width / 2);
-            button.Location = new Point(parent, button.Location.Y);
+            int Posicion = (AnchoDelPdre / 2) - (AnchoDelControl / 2);
+
+            return Posicion;
         }
     }
 }

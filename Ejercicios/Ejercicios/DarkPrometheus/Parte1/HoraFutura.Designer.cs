@@ -43,7 +43,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHorafinal.AutoSize = true;
             this.lblHorafinal.Font = new System.Drawing.Font("Microsoft Yi Baiti", 15.75F);
-            this.lblHorafinal.Location = new System.Drawing.Point(215, 260);
+            this.lblHorafinal.ForeColor = System.Drawing.Color.Gainsboro;
+            this.lblHorafinal.Location = new System.Drawing.Point(201, 232);
             this.lblHorafinal.Name = "lblHorafinal";
             this.lblHorafinal.Size = new System.Drawing.Size(139, 21);
             this.lblHorafinal.TabIndex = 6;
@@ -56,7 +57,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHorasSumar.AutoSize = true;
             this.lblHorasSumar.Font = new System.Drawing.Font("Microsoft Yi Baiti", 15.75F);
-            this.lblHorasSumar.Location = new System.Drawing.Point(238, 204);
+            this.lblHorasSumar.ForeColor = System.Drawing.Color.Gainsboro;
+            this.lblHorasSumar.Location = new System.Drawing.Point(224, 176);
             this.lblHorasSumar.Name = "lblHorasSumar";
             this.lblHorasSumar.Size = new System.Drawing.Size(129, 21);
             this.lblHorasSumar.TabIndex = 5;
@@ -69,7 +71,8 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHoraInicial.AutoSize = true;
             this.lblHoraInicial.Font = new System.Drawing.Font("Microsoft Yi Baiti", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHoraInicial.Location = new System.Drawing.Point(253, 148);
+            this.lblHoraInicial.ForeColor = System.Drawing.Color.Gainsboro;
+            this.lblHoraInicial.Location = new System.Drawing.Point(239, 120);
             this.lblHoraInicial.Name = "lblHoraInicial";
             this.lblHoraInicial.Size = new System.Drawing.Size(101, 21);
             this.lblHoraInicial.TabIndex = 4;
@@ -77,11 +80,13 @@
             // 
             // button1
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Microsoft Yi Baiti", 15.75F);
-            this.button1.Location = new System.Drawing.Point(242, 284);
+            this.button1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.button1.Location = new System.Drawing.Point(228, 256);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(119, 36);
             this.button1.TabIndex = 3;
@@ -91,20 +96,22 @@
             // 
             // txtHoraASumar
             // 
-            this.txtHoraASumar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtHoraASumar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtHoraASumar.Font = new System.Drawing.Font("Microsoft Yi Baiti", 15.75F);
-            this.txtHoraASumar.Location = new System.Drawing.Point(264, 228);
+            this.txtHoraASumar.Location = new System.Drawing.Point(250, 200);
             this.txtHoraASumar.Name = "txtHoraASumar";
             this.txtHoraASumar.Size = new System.Drawing.Size(68, 29);
             this.txtHoraASumar.TabIndex = 2;
             // 
             // txthoraInicial
             // 
-            this.txthoraInicial.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.txthoraInicial.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txthoraInicial.Font = new System.Drawing.Font("Microsoft Yi Baiti", 15.75F);
-            this.txthoraInicial.Location = new System.Drawing.Point(264, 172);
+            this.txthoraInicial.Location = new System.Drawing.Point(250, 144);
             this.txthoraInicial.Name = "txthoraInicial";
             this.txthoraInicial.Size = new System.Drawing.Size(68, 29);
             this.txthoraInicial.TabIndex = 1;
@@ -113,6 +120,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
             this.Controls.Add(this.lblHorafinal);
             this.Controls.Add(this.lblHorasSumar);
             this.Controls.Add(this.lblHoraInicial);
