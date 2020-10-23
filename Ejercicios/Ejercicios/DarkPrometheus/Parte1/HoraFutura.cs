@@ -22,18 +22,17 @@ namespace Ejercicios.DarkPrometheus.Parte1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int HoraActual = int.Parse(txthoraInicial.Text), HoraSumar = int.Parse(txthoraInicial.Text);
+            int HoraActual = int.Parse(txthoraInicial.Text), HoraSumar = int.Parse(txtHoraASumar.Text);
             int suma = HoraActual + HoraSumar;
 
-            if (suma > 24)
-            {
-                if (suma == 24)
-                    lblHorafinal.Text = "1:00";
-                else
-                    lblHorafinal.Text = (suma - 24).ToString();
-            }
+            suma %= 24;
+
+            if (suma < 10)
+                lblHorafinal.Text = "La hora final es: 0" + suma + ":00";
             else
-                lblHorafinal.Text = suma.ToString();
+                lblHorafinal.Text = "La hora final es: " + suma + ":00";
+
+            lblHorafinal.Location = new Point(varios.CentrarUnoHorizontalmente(lblHorafinal.Size.Width, Width), lblHorafinal.Location.Y);
         }
 
         void CentrarHorizontalemten()

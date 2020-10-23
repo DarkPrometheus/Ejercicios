@@ -32,8 +32,10 @@
             this.lblHorasSumar = new System.Windows.Forms.Label();
             this.lblHoraInicial = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.txtHoraASumar = new System.Windows.Forms.TextBox();
-            this.txthoraInicial = new System.Windows.Forms.TextBox();
+            this.txthoraInicial = new System.Windows.Forms.NumericUpDown();
+            this.txtHoraASumar = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.txthoraInicial)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtHoraASumar)).BeginInit();
             this.SuspendLayout();
             // 
             // lblHorafinal
@@ -44,11 +46,11 @@
             this.lblHorafinal.AutoSize = true;
             this.lblHorafinal.Font = new System.Drawing.Font("Microsoft Yi Baiti", 15.75F);
             this.lblHorafinal.ForeColor = System.Drawing.Color.Gainsboro;
-            this.lblHorafinal.Location = new System.Drawing.Point(201, 232);
+            this.lblHorafinal.Location = new System.Drawing.Point(231, 232);
             this.lblHorafinal.Name = "lblHorafinal";
-            this.lblHorafinal.Size = new System.Drawing.Size(139, 21);
+            this.lblHorafinal.Size = new System.Drawing.Size(116, 21);
             this.lblHorafinal.TabIndex = 6;
-            this.lblHorafinal.Text = "La hora final es:";
+            this.lblHorafinal.Text = "A la espera...";
             // 
             // lblHorasSumar
             // 
@@ -94,42 +96,48 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // txtHoraASumar
-            // 
-            this.txtHoraASumar.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtHoraASumar.Font = new System.Drawing.Font("Microsoft Yi Baiti", 15.75F);
-            this.txtHoraASumar.Location = new System.Drawing.Point(250, 200);
-            this.txtHoraASumar.Name = "txtHoraASumar";
-            this.txtHoraASumar.Size = new System.Drawing.Size(68, 29);
-            this.txtHoraASumar.TabIndex = 2;
-            // 
             // txthoraInicial
             // 
-            this.txthoraInicial.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.txthoraInicial.Font = new System.Drawing.Font("Microsoft Yi Baiti", 15.75F);
-            this.txthoraInicial.Location = new System.Drawing.Point(250, 144);
+            this.txthoraInicial.Location = new System.Drawing.Point(243, 144);
+            this.txthoraInicial.Maximum = new decimal(new int[] {
+            24,
+            0,
+            0,
+            0});
             this.txthoraInicial.Name = "txthoraInicial";
-            this.txthoraInicial.Size = new System.Drawing.Size(68, 29);
-            this.txthoraInicial.TabIndex = 1;
+            this.txthoraInicial.Size = new System.Drawing.Size(80, 29);
+            this.txthoraInicial.TabIndex = 7;
+            // 
+            // txtHoraASumar
+            // 
+            this.txtHoraASumar.Font = new System.Drawing.Font("Microsoft Yi Baiti", 15.75F);
+            this.txtHoraASumar.Location = new System.Drawing.Point(243, 200);
+            this.txtHoraASumar.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.txtHoraASumar.Name = "txtHoraASumar";
+            this.txtHoraASumar.Size = new System.Drawing.Size(80, 29);
+            this.txtHoraASumar.TabIndex = 7;
             // 
             // frmHoraFutura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
+            this.Controls.Add(this.txtHoraASumar);
+            this.Controls.Add(this.txthoraInicial);
             this.Controls.Add(this.lblHorafinal);
             this.Controls.Add(this.lblHorasSumar);
             this.Controls.Add(this.lblHoraInicial);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtHoraASumar);
-            this.Controls.Add(this.txthoraInicial);
             this.Name = "frmHoraFutura";
             this.Size = new System.Drawing.Size(598, 483);
             this.Resize += new System.EventHandler(this.HoraFutura_Resize);
+            ((System.ComponentModel.ISupportInitialize)(this.txthoraInicial)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtHoraASumar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -141,7 +149,7 @@
         private System.Windows.Forms.Label lblHorasSumar;
         private System.Windows.Forms.Label lblHoraInicial;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox txtHoraASumar;
-        private System.Windows.Forms.TextBox txthoraInicial;
+        private System.Windows.Forms.NumericUpDown txthoraInicial;
+        private System.Windows.Forms.NumericUpDown txtHoraASumar;
     }
 }
