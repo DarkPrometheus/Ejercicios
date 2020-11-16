@@ -74,7 +74,9 @@ namespace Ejercicios.DarkPrometheus.Parte1
 
         private void btnCirculos_Click(object sender, EventArgs e)
         {
-
+            frmCirculos circulos = new frmCirculos();
+            circulos.Dock = DockStyle.Fill;
+            AddControl(circulos);
         }
 
         private void btnPromedio_Click(object sender, EventArgs e)
